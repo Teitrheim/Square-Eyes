@@ -1,3 +1,27 @@
-body { 
-    background: "../products/movie-theater-compressed.jpg" 
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  background-image: url("../products/movie-theater-compressed.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.logo {
+  width: 300px;
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+
+html, body {
+  height: 100vh;
+}
+
+li, a {
+  display: inline;
+  color: white;
+}
+
