@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 #banner {
   background-image: url("../products/movie-theater-compressed.jpg");
@@ -9,6 +10,13 @@
   height: 100vh;
 }
 
+
+nav {
+  display: flex;
+  justify-content: flex-end; 
+}
+
+
 .logo {
   width: 300px;
   position: absolute;
@@ -16,12 +24,21 @@
   left: 5%;
 }
 
+
 html, body {
   height: 100vh;
 }
+
 
 li, a {
   display: inline;
   color: white;
 }
 
+
+.tv {
+  width: 250px;
+  position: fixed;
+  top: -5%;
+  right: 20%;
+}
