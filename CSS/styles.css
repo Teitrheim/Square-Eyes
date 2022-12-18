@@ -1,8 +1,17 @@
+@font-face {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;;
+  src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
+
+
 #banner {
   background-image: url("../products/movie-theater-compressed.jpg");
   background-size: cover;
@@ -16,6 +25,13 @@ nav {
   justify-content: flex-end; 
 }
 
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 15%;
+  padding: 1em;
+}
+
 
 .logo {
   width: 300px;
@@ -26,19 +42,68 @@ nav {
 
 
 html, body {
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  overflow: hidden;
 }
 
 
 li, a {
   display: inline;
   color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 0 0 0.5em 0.5em;
 }
 
+.active {
+  text-decoration: none;
+}
 
 .tv {
   width: 250px;
   position: fixed;
   top: -5%;
   right: 20%;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  justify-content: space-evenly;
+  margin-left: 6%;
+  margin-top: 10%;
+  padding: 1em;
+  width: 30%;
+}
+
+button {
+  padding: 1em;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.main-button {
+  background-color: #9e7000;
+  margin-top: 1em;
+  width: 50%;
+} 
+
+footer {
+  background-color: #9e7000;
+  height: 30px;
+  position: fixed;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
