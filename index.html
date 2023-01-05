@@ -11,41 +11,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="banner">
-        <header>
-        <a href="index.html">
-        <img src="./assets/SquareEyes_Logo white.png" alt="logo of the homepages" class="logo" /></a>
-        <section id="banner-btn">
+    <section class="header">
         <nav>
-            <ul>
-                <li><a href="index.html" class="active"><img src="./assets/clarity_home-line.png" alt="home icon">Home</a></li>              
-                <li><a href="checkout.html" class="active"><img src="assets/clarity_shopping-cart-line.png" alt="shoppin cart icon">Checkout</a></li>
-            </ul>
+            <a href="index.html"><img src="../Teitrheim/assets/SquareEyes_Logo white.png" class="logo" alt="logo square eyes"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="checkout.html">Checkout</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
         </nav>
-    </section>
-        </header>
-    <section id="banner2">
-        <img src="assets/tv-6188511_640.png" alt="page mascot tv head man" class="tv" />
-    </section>
-    <section class="row">
         <a href="categories.html">
-        <button class="main-button"
-        type="button">Watch Now</button>
+        <button type="button" class="cta">Watch Now</button>
         <a href="signin.html">
-        <button class="main-button"
-        type="button">Sign In</button>
+        <button type="button" class="cta">Sign In</button>
     </section>
-    <footer>
-        <nav>
-            <ul>
-                <li><a href="about.html">About</a></li>              
-            </ul>
-        </nav>
-        <nav>
-            <ul>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </footer>
+    <!-----Javascript for Toggle menu------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right ="0";
+        }
+        function hideMenu() {
+            navLinks.style.right ="-200px";
+        }
+    </script>
+    <!---footer---->
+    <section class="footer">
+        <h4><a href="about.html">About</a></h4>
+        <h4><a href="contact.html">Contact</a></h4>
+    </section>
 </body>
 </html>
+        
