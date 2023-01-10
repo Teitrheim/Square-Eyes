@@ -227,10 +227,28 @@ img {
 
  .movieinfo {
   color: #fff;
-  margin-top: 140px;
+  font-size: smaller;
+  margin-top: 150px;
   margin-right: 400px;
  }
 
- .batman {
+ #batman {
+  width: 250px;
+  position: fixed;
+  top: 15%;
+  left: 70%;
+ }
 
+
+ .buy__button {
+  display: block;
+  border: 1px solid black;
+  background-color: #9e7000;
+  padding: 12px 34px;
+  position: relative;
+  margin: 100px 0px -100px 100px;
+  width: 20%;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
  }
