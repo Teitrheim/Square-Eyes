@@ -4,6 +4,12 @@
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html, body {
+  margin: 0; 
+  height: 100%; 
+  overflow: hidden
+}
+
 .header {
   background-image: url(../products/movie-theater-compressed.jpg);
   min-height: 100vh;
@@ -145,9 +151,86 @@ button {
 
 /*contact page*/
 
+.info {
+  color: #fff;
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+/*about page*/
+
 .about {
   color: #fff;
   margin-top: 150px;
   margin-left: 50px;
 }
 
+/*signin page*/
+
+.form__input {
+  display: block;
+  color: #fff;
+}
+
+.form {
+  color: #fff;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+/*Categories Page*/
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+
+img {
+ display: block; /* Take the whole available width */
+ max-width: 80%; /* responsive */
+}
+
+.container {
+  margin-top: 200px;
+  margin-left: 50px;
+  width: 20%; 
+  min-height: 100px;
+ }
+
+ .container p {
+  color: #fff;
+  font-size: small;
+ }
+
+ /* Media queries */
+/* For large tablets */
+@media (max-width:992px){
+  .container {
+   width: 33.333333%; /* 3 images in a row */
+  }
+ }
+ /* For small tablets */
+ @media (max-width:768px){
+  .container {
+   width: 50%; /* 2 images in a row */
+  }
+ }
+ /* For smartphones */
+ @media (max-width:420px){
+  .container {
+   width: 100%; /* 1 image in a row */
+  }
+ }
+
+ /*movieinfo page*/
+
+ .movieinfo {
+  color: #fff;
+  margin-top: 130px;
+  margin-right: 400px;
+ }
+
+ .batman {
+  
+ }
