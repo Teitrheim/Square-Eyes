@@ -4,12 +4,16 @@
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-html, body {
-  margin: 0; 
-  height: 100%; 
-  overflow: hidden
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  overflow: hidden;
 }
-
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .header {
   background-image: url(../products/movie-theater-compressed.jpg);
   min-height: 100vh;
@@ -19,14 +23,12 @@ html, body {
   position: relative;
 }
 
-
 .logo {
   max-width: 300px;
   position: absolute;
   top: 4%;
   left: 5%;
 }
-
 
 nav {
   display: flex;
@@ -44,20 +46,19 @@ nav {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
-  position: relative;
 }
 
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
-} 
+}
 
 .nav-links ul li::after {
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
-  background: #FFFBF8;
+  background: #fffbf8;
   display: block;
   margin: auto;
   transition: 0.5s;
@@ -77,6 +78,7 @@ button {
   display: block;
   border: 1px solid black;
   background-color: #9e7000;
+  color: #ffffff;
   padding: 12px 34px;
   position: relative;
   margin: 142px 0px -100px 90px;
@@ -84,14 +86,15 @@ button {
   cursor: pointer;
   font-size: 15px;
   text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
 }
 
 .cta:hover {
-  border: 1px solid #FFFBF8;
+  border: 1px solid #fffbf8;
   background: #000000;
   transition: 0.5s;
 }
-
 
 .nav-links ul li {
   display: block;
@@ -104,7 +107,6 @@ button {
 
 .nav-links {
   position: absolute;
-  height: 100vh;
   width: 200px;
   top: 0;
   right: 0;
@@ -113,50 +115,73 @@ button {
   transition: 1s;
 }
 
+
+
+
+
 .tv {
   width: 250px;
   position: fixed;
   top: -5%;
   right: 20%;
 }
+.tv-left {
+  width: 250px;
+  position: fixed;
+  top: -5%;
+  right: 65%;
+}
 
 /*footer*/
 
-.footer {
+footer {
   background-color: #9e7000;
   height: 30px;
   position: fixed;
   width: 100%;
-  padding: 0px 0px 0px 0px;
   bottom: 0;
   display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
 }
-
-.footer h4 a {
+footer div {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.socials {
+  font-size: 12px;
+  color: #fff;
+  width: 10px;
+  height: 10px;
+}
+.socials:hover {
+  cursor: pointer;
+}
+footer a {
   font-family: Poppins Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12px;
-  margin-bottom: 25px;
-  margin-right: 200px;
-  margin-top: 1px;
-  text-decoration: none;
   color: #fff;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
-
+footer a:hover {
+  cursor: pointer;
+}
 /*contact page*/
 
 .info {
   color: #fff;
   margin-top: 150px;
-  margin-left: 50px;
+  float: right;
+  padding: 1em;
 }
 
 /*about page*/
 
 .about {
   color: #fff;
-  margin-top: 150px;
+  margin-top: 115px;
   margin-left: 50px;
 }
 
@@ -165,85 +190,182 @@ button {
 .form__input {
   display: block;
   color: #fff;
+  margin-bottom: 0.5em;
 }
-
+.form__input--medium {
+  display: block;
+  color: #fff;
+  margin-bottom: 0.5em;
+  width: 85%;
+}
+.form__input--smaller {
+  display: block;
+  color: #fff;
+  margin-bottom: 0.5em;
+  width: 70%;
+}
 .form {
   color: #fff;
-  margin-top: 150px;
+  margin-top: 115px;
   margin-left: 80px;
 }
 
+.body-link {
+  margin-left: 5em;
+}
 /*Categories Page*/
 
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
- }
-
-
-img {
- display: block; /* Take the whole available width */
- max-width: 80%; /* responsive */
 }
 
 .container {
-  margin-top: 200px;
-  margin-left: 50px;
-  width: 20%; 
-  min-height: 100px;
- }
-
- .container p {
+  margin-top: 15%;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 2.5em;
+}
+.container-child {
+  padding: 0.5em;
+  text-align: center;
+}
+.container p {
   color: #fff;
   font-size: small;
- }
+}
 
- /* Media queries */
-/* For large tablets */
-@media (max-width:992px){
-  .container {
-   width: 33.333333%; /* 3 images in a row */
-  }
- }
- /* For small tablets */
- @media (max-width:768px){
-  .container {
-   width: 50%; /* 2 images in a row */
-  }
- }
- /* For smartphones */
- @media (max-width:420px){
-  .container {
-   width: 100%; /* 1 image in a row */
-  }
- }
+.container-img {
+  width: 100%;
+}
 
- /*movieinfo page*/
-
- .movieinfo {
-  color: #fff;
-  font-size: smaller;
-  margin-top: 150px;
-  margin-right: 400px;
- }
-
- #batman {
-  width: 250px;
-  position: fixed;
-  top: 15%;
-  left: 70%;
- }
-
-
- .buy__button {
+/* Checkout page */
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box {
+  width: 350px;
+  float: right;
+  margin-right: 2.5em;
+  margin-top: 1em;
+}
+.upper-box {
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 1em;
+  text-align: center;
+}
+.bottom-box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #9e7000;
+}
+.bottom-box div {
+  padding: 1em;
+}
+.spacing {
+  margin-top: 1em;
+}
+.dark-link {
+  background-color: #000000;
   display: block;
   border: 1px solid black;
-  background-color: #9e7000;
+  color: #ffffff;
   padding: 12px 34px;
   position: relative;
-  margin: 100px 0px -100px 100px;
-  width: 20%;
+  margin-top: 1em;
+  width: 100%;
   cursor: pointer;
   font-size: 15px;
   text-decoration: none;
- }
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box-img {
+  width: 150px;
+}
+
+/* Media queries */
+/* For large tablets */
+@media (max-width: 992px) {
+  .container {
+    width: 33.333333%; /* 3 images in a row */
+  }
+
+}
+/* For small tablets */
+@media (max-width: 768px) {
+  .container{
+    margin-top: 10em;
+  }
+  .cta{
+    width: 50%;
+  }
+  .spacing-top{
+    margin-top: 5em;
+  }
+  .tv{
+    margin-top: 5em;
+  }
+}
+/* For smartphones */
+@media (max-width: 420px) {
+  .container {
+    width: 100%; /* 1 image in a row */
+  }
+.cta{
+  width: 50%;
+}
+.spacing-top{
+  margin-top: 20em;
+}
+.tv{
+  margin-top: 10em;
+}
+.container{
+  margin-top: 10em;
+}
+}
+
+/*movieinfo page*/
+
+.movieinfo {
+  color: #fff;
+  font-size: smaller;
+  margin-top: 150px;
+  margin-left: 50px;
+  padding: 1em;
+  width: 55%;
+}
+
+.info-img {
+  width: 200px;
+  position: fixed;
+  top: 15%;
+  left: 65%;
+  bottom: 5%;
+}
+
+.buy__button {
+  display: block;
+  border: 1px solid black;
+  background-color: #9e7000;
+  color: #ffffff;
+  padding: 12px 34px;
+  position: relative;
+  width: 30%;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 1em;
+}
