@@ -170,7 +170,16 @@ footer a:hover {
 
 .info {
   color: #fff;
-  margin-top: 150px;
+  margin-left: 650px;
+  margin-top: 95px;
+  float: right;
+  padding: 1em;
+}
+
+.tv-left {
+  right:30%;
+  margin-left: 650px;
+  margin-top: -25px;
   float: right;
   padding: 1em;
 }
@@ -305,7 +314,7 @@ footer a:hover {
 .info-img {
   width: 200px;
   position: fixed;
-  top: 15%;
+  top: 25%;
   left: 65%;
   bottom: 5%;
 }
@@ -324,6 +333,32 @@ footer a:hover {
   text-align: center;
   border-radius: 10px;
   margin-top: 1em;
+}
+
+/* Success Page */
+
+.tv__success {
+  width: 250px;
+  position: fixed;
+  left: 65%;
+  top: -5%;
+}
+
+.success {
+  color: #fff;
+  font-size: xx-large;
+  margin-top: 148px;
+  margin-left: 60px;
+}
+
+.title {
+  padding-left: 10%;
+}
+
+.shop {
+  padding-top: 1em;
+  padding-left: 12%;
+  font-size: medium;
 }
 
 /* Media queries */
@@ -366,3 +401,14 @@ footer a:hover {
     margin-top: 10em;
   }
 }
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-child {
+  display: flex;
+  flex-direction: row
+}
+
+
