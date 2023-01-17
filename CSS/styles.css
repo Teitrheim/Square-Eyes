@@ -387,6 +387,7 @@ footer a:hover {
 @media (max-width: 420px) {
   .container {
     width: 100%;
+    flex: auto;
   }
   .cta {
     width: 50%;
