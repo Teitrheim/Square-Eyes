@@ -10,10 +10,12 @@ body {
   min-height: 100%;
   overflow: hidden;
 }
+
 a {
   text-decoration: none;
   color: #ffffff;
 }
+
 .header {
   background-image: url(../products/movie-theater-compressed.jpg);
   min-height: 100vh;
@@ -115,10 +117,6 @@ button {
   transition: 1s;
 }
 
-
-
-
-
 .tv {
   width: 250px;
   position: fixed;
@@ -181,7 +179,7 @@ footer a:hover {
 
 .about {
   color: #fff;
-  margin-top: 115px;
+  margin-top: 148px;
   margin-left: 50px;
 }
 
@@ -293,48 +291,6 @@ footer a:hover {
   width: 150px;
 }
 
-/* Media queries */
-/* For large tablets */
-@media (max-width: 992px) {
-  .container {
-    width: 33.333333%; /* 3 images in a row */
-  }
-
-}
-/* For small tablets */
-@media (max-width: 768px) {
-  .container{
-    margin-top: 10em;
-  }
-  .cta{
-    width: 50%;
-  }
-  .spacing-top{
-    margin-top: 5em;
-  }
-  .tv{
-    margin-top: 5em;
-  }
-}
-/* For smartphones */
-@media (max-width: 420px) {
-  .container {
-    width: 100%; /* 1 image in a row */
-  }
-.cta{
-  width: 50%;
-}
-.spacing-top{
-  margin-top: 20em;
-}
-.tv{
-  margin-top: 10em;
-}
-.container{
-  margin-top: 10em;
-}
-}
-
 /*movieinfo page*/
 
 .movieinfo {
@@ -368,4 +324,45 @@ footer a:hover {
   text-align: center;
   border-radius: 10px;
   margin-top: 1em;
+}
+
+/* Media queries */
+/* For large tablets */
+@media (max-width: 992px) {
+  .container {
+    width: 33.333333%;
+  }
+}
+/* For small tablets */
+@media (max-width: 768px) {
+  .container {
+    margin-top: 10em;
+  }
+  .cta {
+    width: 50%;
+  }
+  .spacing-top {
+    margin-top: 5em;
+  }
+  .tv {
+    margin-top: 5em;
+  }
+}
+/* For smartphones */
+@media (max-width: 420px) {
+  .container {
+    width: 100%;
+  }
+  .cta {
+    width: 50%;
+  }
+  .spacing-top {
+    margin-top: 20em;
+  }
+  .tv {
+    margin-top: 10em;
+  }
+  .container {
+    margin-top: 10em;
+  }
 }
