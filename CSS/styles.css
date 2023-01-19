@@ -81,6 +81,10 @@ button {
   font-weight: bolder;
 }
 
+.spacing-top {
+  margin-top: 2.5em;
+}
+
 .cta {
   display: block;
   border: 1px solid black;
@@ -91,7 +95,7 @@ button {
   margin: 142px 0px -100px 90px;
   width: 20%;
   cursor: pointer;
-  font-size: medium;
+  font-size: large;
   font-weight: bolder;
   text-decoration: none;
   text-align: center;
@@ -154,7 +158,7 @@ footer div {
 }
 .socials {
   font-size: medium;
-  font-weight: bold;
+  font-weight: bolder;
   color: rgb(255, 255, 255);
   width: 10px;
   height: 10px;
@@ -165,7 +169,7 @@ footer div {
 footer a {
   font-family: Poppins Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  font-weight: bold;
+  font-weight: bolder;
   color: #fff;
   margin-top: 0.5em;
   margin-left: 0.5em;
@@ -257,7 +261,7 @@ footer a:hover {
 }
 .container p {
   color: #fff;
-  font-size: medium;
+  font-size: large;
   font-weight: bolder;
 }
 
@@ -310,7 +314,7 @@ footer a:hover {
   margin-top: 1em;
   width: 100%;
   cursor: pointer;
-  font-size: medium;
+  font-size: large;
   font-weight: bolder;
   text-decoration: none;
   text-align: center;
@@ -354,9 +358,9 @@ footer a:hover {
   color: #ffffff;
   padding: 12px 34px;
   position: relative;
-  width: 30%;
+  width: 40%;
   cursor: pointer;
-  font-size: medium;
+  font-size: large;
   font-weight: bolder;
   text-decoration: none;
   text-align: center;
@@ -436,6 +440,7 @@ footer a:hover {
   }
   .container {
     margin-top: 10em;
+    flex-direction: column;
   }
 }
 .header {
