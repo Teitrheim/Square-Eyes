@@ -2,9 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
+  
 }
 
 html,
@@ -233,7 +231,7 @@ footer a:hover {
 }
 
 .container {
-  margin-top: 15%;
+  margin-top: 14%;
   min-width: 100%;
   min-height: 100%;
   display: flex;
@@ -252,6 +250,7 @@ footer a:hover {
 
 .container-img {
   width: 100%;
+  height: 55%;
 }
 
 /* Checkout page */
@@ -406,24 +405,19 @@ footer a:hover {
   .container {
     width: 100%;
     flex: auto;
-    margin-top: 10em;
   }
-
-
   .cta {
     width: 50%;
   }
-
-
   .spacing-top {
     margin-top: 20em;
   }
-
-
   .tv {
     margin-top: 10em;
   }
-
+  .container {
+    margin-top: 10em;
+  }
 }
 .header {
   display: flex;
@@ -432,5 +426,5 @@ footer a:hover {
 
 .container-child {
   display: flex;
-  flex-direction: column;
+  flex-direction: row
 }
