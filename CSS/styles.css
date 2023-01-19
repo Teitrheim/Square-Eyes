@@ -56,7 +56,8 @@ nav {
 .nav-links ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 20px;
+  font-size: larger;
+  font-weight: bold;
 }
 
 .nav-links ul li::after {
@@ -76,7 +77,8 @@ nav {
 button {
   border-radius: 10px;
   color: white;
-  font-size: 15px;
+  font-size: medium;
+  font-weight: bolder;
 }
 
 .cta {
@@ -89,7 +91,8 @@ button {
   margin: 142px 0px -100px 90px;
   width: 20%;
   cursor: pointer;
-  font-size: 15px;
+  font-size: medium;
+  font-weight: bolder;
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -150,8 +153,9 @@ footer div {
   padding-right: 1em;
 }
 .socials {
-  font-size: 12px;
-  color: #fff;
+  font-size: medium;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
   width: 10px;
   height: 10px;
 }
@@ -160,7 +164,8 @@ footer div {
 }
 footer a {
   font-family: Poppins Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12px;
+  font-size: medium;
+  font-weight: bold;
   color: #fff;
   margin-top: 0.5em;
   margin-left: 0.5em;
@@ -173,6 +178,8 @@ footer a:hover {
 
 .info {
   color: #fff;
+  font-size: medium;
+  font-weight: bolder;
   margin-left: 650px;
   margin-top: 95px;
   float: right;
@@ -191,6 +198,8 @@ footer a:hover {
 
 .about {
   color: #fff;
+  font-size: medium;
+  font-weight: bolder;
   margin-top: 148px;
   margin-left: 50px;
 }
@@ -198,6 +207,8 @@ footer a:hover {
 /*signin page*/
 
 .form__input {
+  font-size: medium;
+  font-weight: bolder;
   display: block;
   color: #fff;
   margin-bottom: 0.5em;
@@ -245,7 +256,8 @@ footer a:hover {
 }
 .container p {
   color: #fff;
-  font-size: small;
+  font-size: medium;
+  font-weight: bolder;
 }
 
 .container-img {
@@ -256,6 +268,8 @@ footer a:hover {
 /* Checkout page */
 
 .flex {
+  font-size: medium;
+  font-weight: bolder;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -295,7 +309,8 @@ footer a:hover {
   margin-top: 1em;
   width: 100%;
   cursor: pointer;
-  font-size: 15px;
+  font-size: medium;
+  font-weight: bolder;
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -316,6 +331,7 @@ footer a:hover {
 .movieinfo {
   color: #fff;
   font-size: smaller;
+  font-weight: bolder;
   margin-top: 150px;
   margin-left: 50px;
   padding: 1em;
@@ -339,7 +355,8 @@ footer a:hover {
   position: relative;
   width: 30%;
   cursor: pointer;
-  font-size: 15px;
+  font-size: medium;
+  font-weight: bolder;
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -364,6 +381,7 @@ footer a:hover {
 .success {
   color: #fff;
   font-size: xx-large;
+  font-weight: bolder;
   margin-top: 148px;
   margin-left: 60px;
 }
@@ -428,3 +446,4 @@ footer a:hover {
   display: flex;
   flex-direction: row
 }
+
