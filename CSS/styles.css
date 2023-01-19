@@ -20,7 +20,7 @@ a {
 }
 
 .header {
-  background-image: url(../products/movie-theater-compressed.jpg);
+  background-image: url(/Teitrheim/products/darkened-background.jpeg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -178,18 +178,19 @@ footer a:hover {
 
 .info {
   color: #fff;
-  font-size: medium;
+  font-size: large;
   font-weight: bolder;
-  margin-left: 650px;
-  margin-top: 95px;
+  margin: 0.5em;
+  margin-left: 630px;
+  margin-top: 80px;
   float: right;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .tv-left {
   right:30%;
   margin-left: 650px;
-  margin-top: -25px;
+  margin-top: -20px;
   float: right;
   padding: 1em;
 }
@@ -211,7 +212,7 @@ footer a:hover {
   font-weight: bolder;
   display: block;
   color: #fff;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.1em;
 }
 .form__input--medium {
   display: block;
