@@ -451,18 +451,38 @@ footer a:hover {
     justify-content: space-between;
   }
 
+  .logo {
+    display: flex;
+    width: 100%;
+    margin-top: 1em;
+    margin-left: 0.5em;
+  }
+
+  
+
+
   .cta {
-    width: 50%;
+    margin: 8%;
+    top: 8em;
+    left: 10%;
+    width: 60%;
   }
   .spacing-top {
     margin-top: 20em;
   }
   .tv {
-    margin-top: 10em;
-    left: 4em;
-    width: 250px;
+    display: none;
+    background-color: #ffffff;
+    margin-top: 14em;
+    left: 0.3em;
+    width: 350px;
     position: fixed;
   }
+
+  .tv-left {
+    display: none;
+  }
+
   .form {
     margin-top: 28em;
     z-index: 1;
@@ -481,7 +501,13 @@ footer a:hover {
     left: 30px;
     overflow-x: scroll;
   }
+  .header {
+    background-image: url(/Teitrheim/products/Square_Eyes_Cover4.jpeg);
+    
+  }
 }
+
+ 
 
 .header {
   display: flex;
