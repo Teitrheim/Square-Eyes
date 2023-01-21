@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-  
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif; 
 }
 
 html,
@@ -20,7 +19,7 @@ a {
 }
 
 .header {
-  background-image: url(../products/darkened-background.jpeg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../products/darkened-background.jpeg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -43,6 +42,7 @@ nav {
 }
 
 .nav-links {
+  font-size: 16px;
   flex: 1;
   text-align: right;
 }
@@ -248,12 +248,14 @@ footer a:hover {
   color: #fff;
   margin-bottom: 0.5em;
   width: 85%;
+  border-radius: 10px;
 }
 .form__input--smaller {
   display: block;
   color: #fff;
   margin-bottom: 0.5em;
   width: 70%;
+  border-radius: 10px;
 }
 .form {
   color: #fff;
@@ -270,7 +272,7 @@ footer a:hover {
 }
 
 .container {
-  margin-top: 14%;
+  margin-top: 13.5%;
   min-width: 100%;
   min-height: 100%;
   margin-left: 2%;
@@ -304,6 +306,9 @@ footer a:hover {
   justify-content: space-between;
 }
 
+.logo-c {
+  display: none;
+}
 
 .box {
   width: 350px;
@@ -311,12 +316,14 @@ footer a:hover {
   margin-right: 2.5em;
   margin-top: 1em;
 }
+
 .upper-box {
   width: 100%;
   background-color: #d9d9d9;
   padding: 1em;
   text-align: center;
 }
+
 .bottom-box {
   width: 100%;
   display: flex;
@@ -324,12 +331,15 @@ footer a:hover {
   justify-content: space-between;
   background-color: #9e7000;
 }
+
 .bottom-box div {
   padding: 1em;
 }
+
 .spacing {
   margin-top: 1em;
 }
+
 .dark-link {
   background-color: #000000;
   display: block;
@@ -365,10 +375,14 @@ footer a:hover {
   color: #fff;
   font-size: smaller;
   font-weight: bolder;
-  margin-top: 150px;
+  margin-top: 15px;
   margin-left: 50px;
   padding: 1em;
   width: 55%;
+}
+
+.logo-i {
+  display: none;
 }
 
 .info-img {
@@ -506,7 +520,7 @@ footer a:hover {
 
   .info {
     margin: 8%;
-    margin-top: 18em;
+    margin-top: 10em;
     margin-left: auto;
     width: 100%;
   }
@@ -540,16 +554,15 @@ footer a:hover {
   }
 
   .form {
-    margin-top: 18em;
-    z-index: 1;
+    margin-top: 25em;
+    z-index: -1;
   }
 
-
   .movieinfo {
-    margin-top: 10em;
+    margin-top: 4.5em;
     margin-left: -1%;
     z-index: 1;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: bolder;
   }
 
