@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif; 
+  font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+  color: #FDFEFF
 }
 
 html,
@@ -76,7 +77,7 @@ nav {
 
 button {
   border-radius: 10px;
-  color: white;
+  color: #fffbf8;
   font-size: medium;
   font-weight: bolder;
 }
@@ -102,7 +103,8 @@ button {
   border-radius: 10px;
 }
 
-.sub__button, .sign__button {
+.sub__button,
+.sign__button {
   margin-top: 1em;
   left: -0.1%;
   display: block;
@@ -157,6 +159,7 @@ button {
   top: -5%;
   right: 20%;
 }
+
 .tv-left {
   width: 250px;
   position: fixed;
@@ -176,10 +179,12 @@ footer {
   flex-direction: row;
   justify-content: space-between;
 }
+
 footer div {
   padding-left: 1em;
   padding-right: 1em;
 }
+
 .socials {
   font-size: medium;
   font-weight: bolder;
@@ -187,9 +192,11 @@ footer div {
   width: 10px;
   height: 10px;
 }
+
 .socials:hover {
   cursor: pointer;
 }
+
 footer a {
   font-family: Poppins Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
@@ -199,9 +206,11 @@ footer a {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
+
 footer a:hover {
   cursor: pointer;
 }
+
 /*contact page*/
 
 .info {
@@ -216,7 +225,7 @@ footer a:hover {
 }
 
 .tv-left {
-  right:35%;
+  right: 35%;
   margin-top: -25px;
   float: right;
   padding: 1em;
@@ -243,6 +252,7 @@ footer a:hover {
   border-radius: 10px;
   width: 30%;
 }
+
 .form__input--medium {
   display: block;
   color: #fff;
@@ -250,6 +260,7 @@ footer a:hover {
   width: 85%;
   border-radius: 10px;
 }
+
 .form__input--smaller {
   display: block;
   color: #fff;
@@ -257,8 +268,15 @@ footer a:hover {
   width: 70%;
   border-radius: 10px;
 }
+
 .form {
-  color: #fff;
+  color: #ffff;
+  margin-top: 160px;
+  margin-left: 80px;
+}
+
+.form__a {
+  color: #ffff;
   margin-top: 120px;
   margin-left: 80px;
 }
@@ -281,10 +299,12 @@ footer a:hover {
   justify-content: space-between;
   padding-bottom: 4.5em;
 }
+
 .container-child {
   padding: 0.5em;
   text-align: center;
 }
+
 .container p {
   color: #fff;
   font-size: large;
@@ -467,21 +487,26 @@ footer a:hover {
     width: 33.333333%;
   }
 }
+
 /* For small tablets */
 @media (max-width: 768px) {
   .container {
     margin-top: 10em;
   }
+
   .cta {
     width: 50%;
   }
+
   .spacing-top {
     margin-top: 5em;
   }
+
   .tv {
     margin-top: 5em;
   }
 }
+
 /* For smartphones */
 @media (max-width: 420px) {
   .flex {
@@ -489,7 +514,7 @@ footer a:hover {
     font-size: medium;
     font-weight: bolder;
     flex-direction: column;
-    
+
   }
 
   .logo {
@@ -506,7 +531,7 @@ footer a:hover {
     top: 5em;
     left: 10%;
     width: 60%;
-    
+
   }
 
   .buy__button {
@@ -515,6 +540,12 @@ footer a:hover {
     top: -1em;
     right: 10%;
     width: 100%;
+  }
+
+  .sub__button,
+  .sign__button {
+    width: 12%;
+    text-align: center;
   }
 
 
@@ -556,6 +587,13 @@ footer a:hover {
   .form {
     margin-top: 25em;
     z-index: -1;
+  }
+
+  .form__a {
+    color: #ffff;
+    margin-top: 300px;
+    margin-left: 80px;
+    width: 200%;
   }
 
   .movieinfo {
@@ -605,12 +643,13 @@ footer a:hover {
     left: 30px;
     overflow-x: scroll;
   }
+
   .header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../products/Square_Eyes_Cover4.jpeg);
-    }
+  }
 }
 
- 
+
 
 .header {
   display: flex;
