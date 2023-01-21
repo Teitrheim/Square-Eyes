@@ -20,7 +20,7 @@ a {
 }
 
 .header {
-  background-image: url(/Teitrheim/products/darkened-background.jpeg);
+  background-image: url(../products/darkened-background.jpeg);
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -593,7 +593,7 @@ footer a:hover {
     overflow-x: scroll;
   }
   .header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(/Teitrheim/products/Square_Eyes_Cover4.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../products/Square_Eyes_Cover4.jpeg);
     }
 }
 
