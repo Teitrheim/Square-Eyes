@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
-  color: #FDFEFF
+  color: #ffffff;
 }
 
 html,
@@ -332,6 +332,7 @@ footer a:hover {
 
 /* Checkout page */
 
+
 .flex {
   font-size: medium;
   font-weight: bolder;
@@ -358,12 +359,13 @@ footer a:hover {
   text-align: center;
 }
 
+
 .bottom-box {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #9e7000;
+  background-color: #000000;
 }
 
 .bottom-box div {
@@ -375,7 +377,7 @@ footer a:hover {
 }
 
 .dark-link {
-  background-color: #000000;
+  background-color: #9e7000;
   display: block;
   border: 1px solid black;
   color: #ffffff;
@@ -394,7 +396,7 @@ footer a:hover {
 
 .dark-link:hover {
   border: 1px solid #fffbf8;
-  background: gray;
+  background: rgb(0, 0, 0);
   transition: 0.5s;
 }
 
@@ -435,9 +437,9 @@ footer a:hover {
   background-color: #9e7000;
   color: #ffffff;
   filter: brightness(120%);
-  padding: 12px 34px;
+  padding: 5px 34px;
   position: relative;
-  width: 40%;
+  width: 35%;
   cursor: pointer;
   font-size: large;
   font-weight: bolder;
@@ -445,6 +447,13 @@ footer a:hover {
   text-align: center;
   border-radius: 10px;
   margin-top: 0.5em;
+  margin-left: -0.8px;
+}
+
+.bat__button:hover {
+  border: 1px solid #fffbf8;
+  background: #000000;
+  transition: 0.5s;
 }
 
 .buy__button {
