@@ -29,10 +29,12 @@ a {
 }
 
 .logo {
+  filter: brightness(120%);
   max-width: 300px;
   position: absolute;
   top: 4%;
   left: 5%;
+  z-index: 1;
 }
 
 nav {
@@ -56,6 +58,7 @@ nav {
 
 .nav-links ul li a {
   color: #fff;
+  filter: brightness(100%);
   text-decoration: none;
   font-size: larger;
   font-weight: bold;
@@ -91,12 +94,13 @@ button {
   border: 1px solid black;
   background-color: #9e7000;
   color: #ffffff;
+  filter: brightness(120%);
   padding: 12px 34px;
   position: relative;
   margin: 142px 0px -100px 90px;
   width: 20%;
   cursor: pointer;
-  font-size: large;
+  font-size: 19px;
   font-weight: bolder;
   text-decoration: none;
   text-align: center;
@@ -106,16 +110,17 @@ button {
 .sub__button,
 .sign__button {
   margin-top: 1em;
-  left: -0.1%;
+  left: -1%;
   display: block;
   border: 1px solid black;
   background-color: #9e7000;
   color: #ffffff;
-  padding: 0.5px 12px;
+  filter: brightness(120%);
+  padding: -0.5px;
   position: relative;
   width: 12%;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 19px;
   font-weight: bolder;
   text-decoration: none;
   border-radius: 10px;
@@ -123,8 +128,13 @@ button {
 
 
 .sign__button {
-  margin-top: -27px;
-  margin-left: 10.1em;
+  margin-top: -30px;
+  margin-left: 8.5em;
+  text-align: center;
+}
+
+.sub__button {
+  margin-top: 15px;
   text-align: center;
 }
 
@@ -145,13 +155,16 @@ button {
 
 .nav-links {
   position: absolute;
-  width: 200px;
+  width: 250px;
+  font-size: larger;
   top: 0;
   right: 0;
   text-align: left;
   z-index: 2;
   transition: 1s;
 }
+
+
 
 .tv {
   width: 250px;
@@ -164,13 +177,14 @@ button {
   width: 250px;
   position: fixed;
   top: -5%;
-  right: 65%;
+  margin-right: 15%;
 }
 
 /*footer*/
 
 footer {
   background-color: #9e7000;
+  filter: brightness(120%);
   height: 30px;
   position: fixed;
   width: 100%;
@@ -218,7 +232,7 @@ footer a:hover {
   font-size: 22px;
   font-weight: bolder;
   margin: 0.5em;
-  margin-left: 575px;
+  margin-left: 515px;
   margin-top: 32px;
   float: right;
   padding: 0.5em;
@@ -339,7 +353,7 @@ footer a:hover {
 
 .upper-box {
   width: 100%;
-  background-color: #d9d9d9;
+  background-color: #000000;
   padding: 1em;
   text-align: center;
 }
@@ -365,6 +379,7 @@ footer a:hover {
   display: block;
   border: 1px solid black;
   color: #ffffff;
+  filter: brightness(120%);
   padding: 12px 34px;
   position: relative;
   margin-top: 1em;
@@ -393,6 +408,7 @@ footer a:hover {
 
 .movieinfo {
   color: #fff;
+  filter: brightness(100%);
   font-size: smaller;
   font-weight: bolder;
   margin-top: 15px;
@@ -418,6 +434,7 @@ footer a:hover {
   border: 1px solid black;
   background-color: #9e7000;
   color: #ffffff;
+  filter: brightness(120%);
   padding: 12px 34px;
   position: relative;
   width: 40%;
@@ -435,11 +452,12 @@ footer a:hover {
   border: 1px solid black;
   background-color: #9e7000;
   color: #ffffff;
+  filter: brightness(120%);
   padding: 12px 34px;
   position: relative;
   width: 20%;
   cursor: pointer;
-  font-size: large;
+  font-size: 19px;
   font-weight: bolder;
   text-decoration: none;
   text-align: center;
@@ -464,6 +482,7 @@ footer a:hover {
 
 .success {
   color: #fff;
+  filter: brightness(120%);
   font-size: xx-large;
   font-weight: bolder;
   margin-top: 148px;
@@ -481,30 +500,38 @@ footer a:hover {
 }
 
 /* Media queries */
-/* For large tablets */
-@media (max-width: 992px) {
-  .container {
-    width: 33.333333%;
-  }
-}
 
 /* For small tablets */
 @media (max-width: 768px) {
+  .movieinfo {
+    margin-top: 15em;
+    filter: brightness(100%);
+  }
+
   .container {
-    margin-top: 10em;
+    min-height: 50%;
   }
 
-  .cta {
-    width: 50%;
-  }
-
-  .spacing-top {
-    margin-top: 5em;
-  }
-
+  .cta,
   .tv {
-    margin-top: 5em;
+    margin-top: 12em;
   }
+
+  .form__a,
+  .form,
+  .box,
+  .success,
+  .tv__success,
+  .tv-left,
+  .info,
+  .about,
+  .container {
+    margin-top: 18em;
+  }
+}
+
+.about {
+  z-index: 1;
 }
 
 /* For smartphones */
@@ -517,8 +544,16 @@ footer a:hover {
 
   }
 
+  .footer,
+  .footer div,
+  .socials {
+    filter: brightness(100%);
+    margin-top: 11em;
+  }
+
   .logo {
     display: flex;
+    filter: brightness(120%);
     width: 100%;
     margin-top: 1em;
     margin-left: 0.5em;
@@ -527,6 +562,7 @@ footer a:hover {
   .cta {
     font-size: larger;
     font-weight: bolder;
+    filter: brightness(130%);
     margin: 8%;
     top: 5em;
     left: 10%;
@@ -535,7 +571,9 @@ footer a:hover {
   }
 
   .buy__button {
+    font-size: larger;
     font-weight: bolder;
+    filter: brightness(120%);
     margin: 8%;
     top: -1em;
     right: 10%;
@@ -544,12 +582,21 @@ footer a:hover {
 
   .sub__button,
   .sign__button {
+    font-weight: bolder;
+    font-size: larger;
+    filter: brightness(120%);
     width: 12%;
     text-align: center;
   }
 
+  .sub__button {
+    text-align: center;
+    width: fit-content;
+  }
+
 
   .info {
+    filter: brightness(120%);
     margin: 8%;
     margin-top: 10em;
     margin-left: auto;
@@ -557,11 +604,13 @@ footer a:hover {
   }
 
   .about {
+    filter: brightness(120%);
     margin-top: 60%;
     margin-right: 15%;
   }
 
   .box {
+    filter: brightness(120%);
     margin-top: -20em;
     width: 100%;
   }
@@ -585,11 +634,13 @@ footer a:hover {
   }
 
   .form {
+    filter: brightness(120%);
     margin-top: 25em;
     z-index: -1;
   }
 
   .form__a {
+    filter: brightness(120%);
     color: #ffff;
     margin-top: 300px;
     margin-left: 80px;
@@ -597,6 +648,7 @@ footer a:hover {
   }
 
   .movieinfo {
+    filter: brightness(120%);
     margin-top: 4.5em;
     margin-left: -1%;
     z-index: 1;
@@ -605,6 +657,7 @@ footer a:hover {
   }
 
   .bat__button {
+    filter: brightness(120%);
     margin-top: 1.1em;
     right: 1%;
     width: 200%;
@@ -621,6 +674,7 @@ footer a:hover {
   }
 
   .success {
+    filter: brightness(120%);
     margin-top: 5em;
     font-size: 40px;
     font-weight: bolder;
@@ -648,6 +702,7 @@ footer a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../products/Square_Eyes_Cover4.jpeg);
   }
 }
+
 
 .header {
   display: flex;
