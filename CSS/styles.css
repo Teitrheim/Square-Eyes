@@ -19,13 +19,18 @@ a {
   color: #ffffff;
 }
 
-.header {
+.banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../products/darkened-background.jpeg);
   width: 100%;
   height: 100vh;
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+.header {
+  background-color: #000000;
+  height: 100vh;
 }
 
 .logo {
@@ -82,7 +87,6 @@ button {
   border-radius: 10px;
   color: #fffbf8;
   font-size: medium;
-  font-weight: bolder;
 }
 
 .spacing-top {
@@ -101,7 +105,6 @@ button {
   width: 20%;
   cursor: pointer;
   font-size: 19px;
-  font-weight: bolder;
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -121,7 +124,6 @@ button {
   width: 12%;
   cursor: pointer;
   font-size: 19px;
-  font-weight: bolder;
   text-decoration: none;
   border-radius: 10px;
 }
@@ -136,6 +138,8 @@ button {
 .sub__button {
   margin-top: 15px;
   text-align: center;
+  width: 16%;
+  margin-left: 0.3em;
 }
 
 .cta:hover {
@@ -166,7 +170,7 @@ button {
 
 
 
-.tv {
+.tv-home {
   width: 250px;
   position: fixed;
   top: -5%;
@@ -201,7 +205,6 @@ footer div {
 
 .socials {
   font-size: medium;
-  font-weight: bolder;
   color: rgb(255, 255, 255);
   width: 10px;
   height: 10px;
@@ -214,7 +217,6 @@ footer div {
 footer a {
   font-family: Poppins Verdana, Geneva, Tahoma, sans-serif;
   font-size: medium;
-  font-weight: bolder;
   color: #fff;
   margin-top: 0.5em;
   margin-left: 0.5em;
@@ -230,7 +232,6 @@ footer a:hover {
 .info {
   color: #fff;
   font-size: 22px;
-  font-weight: bolder;
   margin: 0.5em;
   margin-left: 515px;
   margin-top: 32px;
@@ -250,7 +251,6 @@ footer a:hover {
 .about {
   color: #fff;
   font-size: medium;
-  font-weight: bolder;
   margin-top: 148px;
   margin-left: 50px;
 }
@@ -259,7 +259,6 @@ footer a:hover {
 
 .form__input {
   font-size: medium;
-  font-weight: bolder;
   display: block;
   color: #fff;
   margin-bottom: 0.1em;
@@ -285,13 +284,13 @@ footer a:hover {
 
 .form {
   color: #ffff;
-  margin-top: 160px;
+  margin-top: 100px;
   margin-left: 80px;
 }
 
 .form__a {
   color: #ffff;
-  margin-top: 120px;
+  margin-top: 110px;
   margin-left: 80px;
 }
 
@@ -301,6 +300,7 @@ footer a:hover {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 19px;
 }
 
 .container {
@@ -321,8 +321,7 @@ footer a:hover {
 
 .container p {
   color: #fff;
-  font-size: large;
-  font-weight: bolder;
+  font-size: 19px;
 }
 
 .container-img {
@@ -335,7 +334,6 @@ footer a:hover {
 
 .flex {
   font-size: medium;
-  font-weight: bolder;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -348,13 +346,12 @@ footer a:hover {
 .box {
   width: 350px;
   float: right;
-  margin-right: 2.5em;
+  margin-right: 5.5em;
   margin-top: 1em;
 }
 
 .upper-box {
   width: 100%;
-  background-color: #000000;
   padding: 1em;
   text-align: center;
 }
@@ -365,16 +362,12 @@ footer a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #000000;
 }
 
 .bottom-box div {
-  padding: 1em;
+  padding: 0.5em;
 }
 
-.spacing {
-  margin-top: 1em;
-}
 
 .dark-link {
   background-color: #9e7000;
@@ -382,14 +375,11 @@ footer a:hover {
   border: 1px solid black;
   color: #ffffff;
   filter: brightness(120%);
-  padding: 12px 34px;
+  padding: 6px 34px;
   position: relative;
-  margin-top: 1em;
+  margin-top: 2em;
   width: 100%;
-  cursor: pointer;
-  font-size: large;
-  font-weight: bolder;
-  text-decoration: none;
+  cursor: pointe19px text-decoration: none;
   text-align: center;
   border-radius: 10px;
 }
@@ -412,8 +402,7 @@ footer a:hover {
   color: #fff;
   filter: brightness(100%);
   font-size: smaller;
-  font-weight: bolder;
-  margin-top: 15px;
+  margin-top: 50px;
   margin-left: 50px;
   padding: 1em;
   width: 55%;
@@ -426,7 +415,7 @@ footer a:hover {
 .info-img {
   width: 200px;
   position: fixed;
-  top: 25%;
+  top: 70px;
   left: 65%;
   bottom: 5%;
 }
@@ -441,8 +430,6 @@ footer a:hover {
   position: relative;
   width: 35%;
   cursor: pointer;
-  font-size: large;
-  font-weight: bolder;
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -462,16 +449,15 @@ footer a:hover {
   background-color: #9e7000;
   color: #ffffff;
   filter: brightness(120%);
-  padding: 12px 34px;
+  padding: 6px 34px;
   position: relative;
   width: 20%;
   cursor: pointer;
   font-size: 19px;
-  font-weight: bolder;
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
-  margin-top: 0.5em;
+  margin-top: -0.1em;
 }
 
 .buy__button:hover {
@@ -492,19 +478,21 @@ footer a:hover {
 .success {
   color: #fff;
   filter: brightness(120%);
-  font-size: xx-large;
-  font-weight: bolder;
   margin-top: 148px;
-  margin-left: 60px;
+  margin-left: 50px;
 }
 
 .title {
-  padding-left: 10%;
+  padding-left: 8%;
+}
+
+h1 {
+  font-size: xx-large;
 }
 
 .shop {
   padding-top: 1em;
-  padding-left: 12%;
+  padding-left: 8%;
   font-size: medium;
 }
 
@@ -548,16 +536,11 @@ footer a:hover {
   .flex {
     margin-bottom: -50%;
     font-size: medium;
-    font-weight: bolder;
     flex-direction: column;
-
   }
 
-  .footer,
-  .footer div,
-  .socials {
-    filter: brightness(100%);
-    margin-top: 11em;
+  footer {
+    filter: brightness(140%);
   }
 
   .logo {
@@ -570,7 +553,7 @@ footer a:hover {
 
   .cta {
     font-size: larger;
-    font-weight: bolder;
+
     filter: brightness(130%);
     margin: 8%;
     top: 5em;
@@ -581,7 +564,6 @@ footer a:hover {
 
   .buy__button {
     font-size: larger;
-    font-weight: bolder;
     filter: brightness(120%);
     margin: 8%;
     top: -1em;
@@ -591,8 +573,8 @@ footer a:hover {
 
   .sub__button,
   .sign__button {
-    font-weight: bolder;
-    font-size: larger;
+
+    font-size: 18px;
     filter: brightness(120%);
     width: 12%;
     text-align: center;
@@ -614,7 +596,7 @@ footer a:hover {
 
   .about {
     filter: brightness(120%);
-    margin-top: 60%;
+    margin-top: 54%;
     margin-right: 15%;
   }
 
@@ -638,9 +620,21 @@ footer a:hover {
     position: fixed;
   }
 
-  .tv-left {
+  .tv-left,
+  .tv__success {
     display: none;
   }
+
+  .tv-home {
+    margin-top: 8em;
+  }
+
+  h1,
+  .title,
+  .shop {
+    margin-top: 0.6em;
+  }
+
 
   .form {
     filter: brightness(120%);
@@ -652,7 +646,7 @@ footer a:hover {
     filter: brightness(120%);
     color: #ffff;
     margin-top: 300px;
-    margin-left: 80px;
+    margin-left: 30px;
     width: 200%;
   }
 
@@ -662,12 +656,12 @@ footer a:hover {
     margin-left: -1%;
     z-index: 1;
     font-size: 12px;
-    font-weight: bolder;
+
   }
 
   .bat__button {
     filter: brightness(120%);
-    margin-top: 1.1em;
+    margin-top: 0.5em;
     right: 1%;
     width: 200%;
   }
@@ -678,15 +672,11 @@ footer a:hover {
   }
 
 
-  .tv__success {
-    display: none;
-  }
-
   .success {
     filter: brightness(120%);
     margin-top: 5em;
     font-size: 40px;
-    font-weight: bolder;
+
   }
 
   .shop {
