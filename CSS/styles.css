@@ -65,8 +65,7 @@ nav {
   color: #fff;
   filter: brightness(100%);
   text-decoration: none;
-  font-size: larger;
-  font-weight: bold;
+  font-size: 19px;
 }
 
 .nav-links ul li::after {
@@ -86,7 +85,7 @@ nav {
 button {
   border-radius: 10px;
   color: #fffbf8;
-  font-size: medium;
+  font-size: 19px;
 }
 
 .spacing-top {
@@ -207,7 +206,7 @@ footer div {
 }
 
 .socials {
-  font-size: medium;
+  font-size: 16px;
   color: rgb(255, 255, 255);
   width: 10px;
   height: 10px;
@@ -219,7 +218,7 @@ footer div {
 
 footer a {
   font-family: Poppins Verdana, Geneva, Tahoma, sans-serif;
-  font-size: medium;
+  font-size: 16px;
   color: #fff;
   margin-top: 0.5em;
   margin-left: 0.5em;
@@ -320,7 +319,7 @@ footer a:hover {
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-size: 19px;
+
 }
 
 .container {
@@ -432,9 +431,8 @@ footer a:hover {
 
 .movieinfo {
   color: #fff;
-  filter: brightness(100%);
   font-size: smaller;
-  margin-top: 50px;
+  margin-top: 10px;
   margin-left: 50px;
   padding: 1em;
   width: 55%;
@@ -458,7 +456,8 @@ footer a:hover {
   background-color: #9e7000;
   color: #ffffff;
   filter: brightness(120%);
-  padding: 5px 34px;
+  padding: 8px 34px;
+  font-size: 19px;
   position: relative;
   width: 35%;
   cursor: pointer;
@@ -529,6 +528,10 @@ h1 {
 }
 
 /* Media queries */
+
+/* For large tablets */
+@media (max-width:px) {}
+
 
 /* For small tablets */
 @media (max-width: 768px) {
