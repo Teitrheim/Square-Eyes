@@ -142,7 +142,10 @@ button {
   margin-left: 0.3em;
 }
 
-.cta:hover {
+.cta:hover,
+.a__button:hover,
+.sub__button:hover,
+.sign__button:hover {
   border: 1px solid #fffbf8;
   background: #000000;
   transition: 0.5s;
@@ -233,10 +236,11 @@ footer a:hover {
   color: #fff;
   font-size: 22px;
   margin: 0.5em;
-  margin-left: 515px;
-  margin-top: 32px;
+  margin-left: 490px;
+  margin-top: 75px;
   float: right;
   padding: 0.5em;
+  font-size: 19px;
 }
 
 .tv-left {
@@ -251,8 +255,29 @@ footer a:hover {
 .about {
   color: #fff;
   font-size: medium;
-  margin-top: 148px;
-  margin-left: 50px;
+  margin-top: 80px;
+  margin-left: 35px;
+}
+
+.a__button {
+  margin-top: 1em;
+  display: block;
+  background-color: #9e7000;
+  color: #ffffff;
+  filter: brightness(120%);
+  padding: 5px 34px;
+  position: relative;
+  width: 20%;
+  cursor: pointer;
+  font-size: 19px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.logo_a {
+  display: none;
 }
 
 /*signin page*/
@@ -282,11 +307,6 @@ footer a:hover {
   border-radius: 10px;
 }
 
-.form {
-  color: #ffff;
-  margin-top: 100px;
-  margin-left: 80px;
-}
 
 .form__a {
   color: #ffff;
@@ -331,6 +351,12 @@ footer a:hover {
 
 /* Checkout page */
 
+.form {
+  color: #ffff;
+  margin-top: 137px;
+  margin-left: 80px;
+}
+
 
 .flex {
   font-size: medium;
@@ -340,14 +366,19 @@ footer a:hover {
 }
 
 .logo-c {
-  display: none;
+  filter: brightness(120%);
+  max-width: 300px;
+  position: absolute;
+  top: 4%;
+  left: 5%;
+  z-index: 1;
 }
 
 .box {
   width: 350px;
   float: right;
   margin-right: 5.5em;
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .upper-box {
@@ -379,7 +410,8 @@ footer a:hover {
   position: relative;
   margin-top: 2em;
   width: 100%;
-  cursor: pointe19px text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
   text-align: center;
   border-radius: 10px;
 }
