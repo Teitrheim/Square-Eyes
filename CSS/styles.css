@@ -333,7 +333,6 @@ footer a:hover {
   min-height: 100%;
   margin-left: 2%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   padding-bottom: 4.5em;
 }
@@ -602,6 +601,10 @@ h1 {
 
   }
 
+  .a__button {
+    width: 100%;
+  }
+
   .buy__button {
     font-size: larger;
     filter: brightness(120%);
@@ -642,7 +645,7 @@ h1 {
 
   .box {
     filter: brightness(120%);
-    margin-top: -20em;
+    margin-top: -17em;
     width: 100%;
   }
 
@@ -693,27 +696,22 @@ h1 {
   .movieinfo {
     filter: brightness(120%);
     margin-top: 1.5em;
-    margin-left: -1%;
+    margin-left: 15%;
     z-index: 1;
     font-size: 12px;
-
+    width: 90%;
   }
 
-  .movieinfo h2 p {
-    position: inherit;
-    top: 20%;
-    left: 50%;
-  }
 
   .bat__button {
     filter: brightness(120%);
-    margin-top: 3em;
-    right: 1%;
-    width: 200%;
+    margin-top: 16em;
+    right: 2%;
+    width: 80%;
   }
 
   .info-img {
-    margin-top: 15em;
+    margin-top: 17em;
     left: 5em;
   }
 
