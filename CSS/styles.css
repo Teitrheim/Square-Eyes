@@ -282,25 +282,25 @@ footer a:hover {
 /*signin page*/
 
 .form__input {
+  color: #000000;
   font-size: medium;
   display: block;
-  color: #fff;
   margin-bottom: 0.1em;
   border-radius: 10px;
   width: 30%;
 }
 
 .form__input--medium {
+  color: #000000;
   display: block;
-  color: #fff;
   margin-bottom: 0.5em;
   width: 85%;
   border-radius: 10px;
 }
 
 .form__input--smaller {
+  color: #000000;
   display: block;
-  color: #fff;
   margin-bottom: 0.5em;
   width: 70%;
   border-radius: 10px;
@@ -308,7 +308,6 @@ footer a:hover {
 
 
 .form__a {
-  color: #ffff;
   margin-top: 110px;
   margin-left: 80px;
 }
@@ -687,23 +686,29 @@ h1 {
 
   .movieinfo {
     filter: brightness(120%);
-    margin-top: 4.5em;
+    margin-top: 1.5em;
     margin-left: -1%;
     z-index: 1;
     font-size: 12px;
 
   }
 
+  .movieinfo h2 p {
+    position: inherit;
+    top: 20%;
+    left: 50%;
+  }
+
   .bat__button {
     filter: brightness(120%);
-    margin-top: 0.5em;
+    margin-top: 3em;
     right: 1%;
     width: 200%;
   }
 
   .info-img {
-    margin-top: 6em;
-    margin-left: -15%;
+    margin-top: 15em;
+    left: 5em;
   }
 
 
@@ -723,12 +728,12 @@ h1 {
   }
 
   .container {
-    margin-top: 10em;
+    margin-top: 15em;
     flex-direction: column;
     position: absolute;
     width: 650px;
     height: 80px;
-    left: 30px;
+    left: 20px;
     overflow-x: scroll;
   }
 
