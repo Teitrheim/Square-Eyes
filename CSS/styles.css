@@ -3,6 +3,7 @@
   --secondary-text-color: #000;
   --main-bg-color: #000;
   --secondary-bg-color: #9e7000;
+  --main-text-size: var(--main-text-size);
 }
 
 * {
@@ -72,7 +73,7 @@ nav {
   color: var(--main-text-color);
   filter: brightness(100%);
   text-decoration: none;
-  font-size: 19px;
+  font-size: var(--main-text-size);
 }
 
 .nav-links ul li::after {
@@ -92,7 +93,7 @@ nav {
 button {
   border-radius: 10px;
   color: var(--main-text-color);
-  font-size: 19px;
+  font-size: var(--main-text-size);
 }
 
 .spacing-top {
@@ -110,7 +111,7 @@ button {
   margin: 142px 0px -100px 90px;
   width: 20%;
   cursor: pointer;
-  font-size: 19px;
+  font-size: var(--main-text-size);
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -129,15 +130,15 @@ button {
   position: relative;
   width: 12%;
   cursor: pointer;
-  font-size: 19px;
+  font-size: var(--main-text-size);
   text-decoration: none;
   border-radius: 10px;
 }
 
 
 .sign__button {
-  margin-top: -30px;
-  margin-left: 8.5em;
+  margin-top: -27px;
+  margin-left: 11em;
   text-align: center;
 }
 
@@ -256,7 +257,7 @@ footer a:hover {
   margin-top: 75px;
   float: right;
   padding: 0.5em;
-  font-size: 19px;
+  font-size: var(--main-text-size);
 }
 
 .tv-left {
@@ -270,7 +271,7 @@ footer a:hover {
 
 .about {
   color: var(--main-text-color);
-  font-size: medium;
+  font-size: var(--main-text-size);
   margin-top: 80px;
   margin-left: 35px;
 }
@@ -285,7 +286,7 @@ footer a:hover {
   position: relative;
   width: 20%;
   cursor: pointer;
-  font-size: 19px;
+  font-size: var(--main-text-size);
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -355,7 +356,7 @@ footer a:hover {
 
 .container p {
   color: var(--main-text-color);
-  font-size: 19px;
+  font-size: var(--main-text-size);
 }
 
 .container-img {
@@ -446,7 +447,7 @@ footer a:hover {
 
 .movieinfo {
   color: var(--main-text-color);
-  font-size: smaller;
+  font-size: var(--main-text-size);
   margin-top: 80px;
   margin-left: 50px;
   padding: 1em;
@@ -472,7 +473,7 @@ footer a:hover {
   color: var(--main-text-color);
   filter: brightness(120%);
   padding: 8px 34px;
-  font-size: 19px;
+  font-size: var(--main-text-size);
   position: relative;
   width: 35%;
   cursor: pointer;
@@ -499,7 +500,7 @@ footer a:hover {
   position: relative;
   width: 20%;
   cursor: pointer;
-  font-size: 19px;
+  font-size: var(--main-text-size);
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -706,8 +707,8 @@ h1 {
 
   .movieinfo {
     filter: brightness(120%);
-    margin-top: 1.5em;
-    margin-left: 15%;
+    margin-top: 12em;
+    margin-left: 5%;
     z-index: 1;
     font-size: 12px;
     width: 90%;
@@ -716,13 +717,13 @@ h1 {
 
   .bat__button {
     filter: brightness(120%);
-    margin-top: 16em;
-    right: 2%;
+    margin-top: 30em;
+    right: -10%;
     width: 80%;
   }
 
   .info-img {
-    margin-top: 17em;
+    margin-top: 15em;
     left: 5em;
   }
 
