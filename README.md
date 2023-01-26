@@ -12,3 +12,7 @@ Icons: Iconify
 Font: Poppins
 Movie information and ranking: imbd.com
 Google, Googlefonts
+font-awesome
+instagram
+facebook
+twitter
