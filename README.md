@@ -10,7 +10,7 @@ References: my class and my teacher
 Images: pixabay.com
 Icons: Iconify
 Font: Poppins
-Movie information and ranking: imbd.com
+Movie information: imbd.com
 Google, Googlefonts
 font-awesome
 instagram
