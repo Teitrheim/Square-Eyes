@@ -621,12 +621,6 @@ h1 {
     text-align: center;
   }
 
-  .sub__button {
-    text-align: center;
-    width: fit-content;
-  }
-
-
   .info {
     margin: 8%;
     margin-top: 16em;
@@ -649,7 +643,6 @@ h1 {
   }
 
   .tv {
-    display: none;
     background-color: var(--main-text-color);
     margin-top: 14em;
     left: 0.3em;
@@ -658,7 +651,8 @@ h1 {
   }
 
   .tv-left,
-  .tv__success {
+  .tv__success,
+  .tv {
     display: none;
   }
 
