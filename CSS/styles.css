@@ -20,7 +20,20 @@ body {
   overflow: hidden;
 }
 
-
+.success,
+.buy__button,
+.bat__button,
+.dark-link,
+.logo-c,
+.a__button,
+footer,
+.sub__button,
+.sign__button,
+.cta,
+.nav-links ul li a,
+.logo {
+  filter: brightness(120%);
+}
 
 a {
   text-decoration: none;
@@ -533,6 +546,7 @@ h1 {
 }
 
 /* Media queries */
+
 
 /* For small tablets */
 @media (max-width: 768px) {
