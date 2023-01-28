@@ -42,7 +42,6 @@ a {
 }
 
 .logo {
-  filter: brightness(120%);
   max-width: 300px;
   position: absolute;
   top: 4%;
@@ -71,7 +70,6 @@ nav {
 
 .nav-links ul li a {
   color: var(--main-text-color);
-  filter: brightness(100%);
   text-decoration: none;
   font-size: var(--main-text-size);
 }
@@ -105,7 +103,6 @@ button {
   border: 1px solid var(--main-bg-color);
   background-color: var(--secondary-bg-color);
   color: var(--main-text-color);
-  filter: brightness(120%);
   padding: 12px 34px;
   position: relative;
   margin: 142px 0px -100px 90px;
@@ -125,7 +122,6 @@ button {
   border: 1px solid var(--main-bg-color);
   background-color: var(--secondary-bg-color);
   color: var(--main-text-color);
-  filter: brightness(120%);
   padding: -0.5px;
   position: relative;
   width: 12%;
@@ -198,7 +194,6 @@ button {
 
 footer {
   background-color: var(--secondary-bg-color);
-  filter: brightness(120%);
   height: 30px;
   position: fixed;
   width: 100%;
@@ -281,7 +276,6 @@ footer a:hover {
   display: block;
   background-color: var(--secondary-bg-color);
   color: var(--main-text-color);
-  filter: brightness(120%);
   padding: 5px 34px;
   position: relative;
   width: 20%;
@@ -381,7 +375,6 @@ footer a:hover {
 }
 
 .logo-c {
-  filter: brightness(120%);
   max-width: 300px;
   position: absolute;
   top: 4%;
@@ -420,7 +413,6 @@ footer a:hover {
   display: block;
   border: 1px solid var(--main-bg-color);
   color: var(--main-text-color);
-  filter: brightness(120%);
   padding: 6px 34px;
   position: relative;
   margin-top: 2em;
@@ -471,7 +463,6 @@ footer a:hover {
   border: 1px solid var(--main-bg-color);
   background-color: var(--secondary-bg-color);
   color: var(--main-text-color);
-  filter: brightness(120%);
   padding: 8px 34px;
   font-size: var(--main-text-size);
   position: relative;
@@ -495,7 +486,6 @@ footer a:hover {
   border: 1px solid var(--main-bg-color);
   background-color: var(--secondary-bg-color);
   color: var(--main-text-color);
-  filter: brightness(120%);
   padding: 6px 34px;
   position: relative;
   width: 20%;
@@ -524,7 +514,6 @@ footer a:hover {
 
 .success {
   color: var(--main-text-color);
-  filter: brightness(120%);
   margin-top: 148px;
   margin-left: 50px;
 }
@@ -544,10 +533,6 @@ h1 {
 }
 
 /* Media queries */
-
-/* For large tablets */
-@media (max-width:px) {}
-
 
 /* For small tablets */
 @media (max-width: 768px) {
@@ -590,13 +575,26 @@ h1 {
     flex-direction: column;
   }
 
-  footer {
+  footer,
+  .success,
+  .bat__button,
+  .movieinfo,
+  .form,
+  .form__a,
+  .box,
+  .about,
+  .info,
+  .sub__button,
+  .sign__button,
+  .buy__button,
+  .cta,
+  .logo {
     filter: brightness(140%);
   }
 
+
   .logo {
     display: flex;
-    filter: brightness(120%);
     width: 100%;
     margin-top: 1em;
     margin-left: 0.5em;
@@ -604,8 +602,6 @@ h1 {
 
   .cta {
     font-size: larger;
-
-    filter: brightness(130%);
     margin: 8%;
     top: 5em;
     left: 10%;
@@ -619,7 +615,6 @@ h1 {
 
   .buy__button {
     font-size: larger;
-    filter: brightness(120%);
     margin: 8%;
     top: -1em;
     right: 10%;
@@ -628,9 +623,7 @@ h1 {
 
   .sub__button,
   .sign__button {
-
     font-size: 18px;
-    filter: brightness(120%);
     width: 12%;
     text-align: center;
   }
@@ -642,21 +635,18 @@ h1 {
 
 
   .info {
-    filter: brightness(120%);
     margin: 8%;
-    margin-top: 10em;
+    margin-top: 16em;
     margin-left: auto;
     width: 100%;
   }
 
   .about {
-    filter: brightness(120%);
     margin-top: 54%;
     margin-right: 15%;
   }
 
   .box {
-    filter: brightness(120%);
     margin-top: -17em;
     width: 100%;
   }
@@ -692,13 +682,11 @@ h1 {
 
 
   .form {
-    filter: brightness(120%);
     margin-top: 25em;
     z-index: -1;
   }
 
   .form__a {
-    filter: brightness(120%);
     color: var(--main-text-color);
     margin-top: 300px;
     margin-left: 30px;
@@ -706,7 +694,6 @@ h1 {
   }
 
   .movieinfo {
-    filter: brightness(120%);
     margin-top: 12em;
     margin-left: 5%;
     z-index: 1;
@@ -716,7 +703,6 @@ h1 {
 
 
   .bat__button {
-    filter: brightness(120%);
     margin-top: 30em;
     right: -10%;
     width: 80%;
@@ -729,19 +715,16 @@ h1 {
 
 
   .success {
-    filter: brightness(120%);
     margin-top: 5em;
     font-size: 40px;
 
   }
 
-  .shop {
-    margin-left: -10%;
-  }
-
+  .shop,
   .title {
     margin-left: -10%;
   }
+
 
   .container {
     margin-top: 15em;
