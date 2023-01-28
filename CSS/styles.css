@@ -533,7 +533,7 @@ h1 {
 @media (max-width: 768px) {
   .movieinfo {
     margin-top: 15em;
-    filter: brightness(100%);
+    filter: brightness(120%);
   }
 
   .container {
@@ -584,7 +584,7 @@ h1 {
   .buy__button,
   .cta,
   .logo {
-    filter: brightness(140%);
+    filter: brightness(120%);
   }
 
   .logo {
@@ -620,6 +620,15 @@ h1 {
     font-size: 18px;
     width: 12%;
     text-align: center;
+  }
+
+  .sub__button {
+    width: 15%;
+  }
+
+  .sign__button {
+    top: -11%;
+    margin-left: 20%;
   }
 
   .info {
