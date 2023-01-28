@@ -35,6 +35,7 @@ footer,
   filter: brightness(120%);
 }
 
+
 a {
   text-decoration: none;
   color: var(--main-text-color);
