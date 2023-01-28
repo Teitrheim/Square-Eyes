@@ -733,13 +733,15 @@ h1 {
   }
 }
 
+.header,
+.container-child {
+  display: flex;
+}
 
 .header {
-  display: flex;
   flex-direction: column;
 }
 
 .container-child {
-  display: flex;
   flex-direction: row;
 }
