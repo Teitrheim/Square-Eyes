@@ -35,10 +35,56 @@ footer,
   filter: brightness(120%);
 }
 
+.success,
+.buy__button,
+.bat__button,
+.movieinfo,
+.dark-link,
+.form,
+.container p,
+.a__button,
+.about,
+a,
+.info,
+footer a,
+.socials,
+.sub__button,
+.sign__button,
+.cta,
+button,
+.nav-links ul li a {
+  color: var(--main-text-color);
+}
+
+.nav-links ul li a,
+button,
+.buy__button,
+.bat__button,
+.dark-link,
+.sub__button,
+.cta,
+.info,
+.about,
+.a__button,
+.container p,
+.movieinfo,
+.bat__button {
+  font-size: var(--main-text-size);
+}
+
+.cta,
+.sub__button,
+.sign__button,
+footer,
+.a__button,
+.dark-link,
+.bat__button,
+.buy__button {
+  background-color: var(--secondary-bg-color);
+}
 
 a {
   text-decoration: none;
-  color: var(--main-text-color);
 }
 
 .banner {
@@ -83,9 +129,7 @@ nav {
 }
 
 .nav-links ul li a {
-  color: var(--main-text-color);
   text-decoration: none;
-  font-size: var(--main-text-size);
 }
 
 .nav-links ul li::after {
@@ -104,8 +148,6 @@ nav {
 
 button {
   border-radius: 10px;
-  color: var(--main-text-color);
-  font-size: var(--main-text-size);
 }
 
 .buy__button,
@@ -116,7 +158,6 @@ button {
   display: block;
   border: 1px solid var(--main-bg-color);
   cursor: pointer;
-  font-size: var(--main-text-size);
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -127,8 +168,6 @@ button {
 }
 
 .cta {
-  background-color: var(--secondary-bg-color);
-  color: var(--main-text-color);
   padding: 12px 34px;
   position: relative;
   margin: 142px 0px -100px 90px;
@@ -137,8 +176,6 @@ button {
 
 .sub__button,
 .sign__button {
-  background-color: var(--secondary-bg-color);
-  color: var(--main-text-color);
   padding: -0.5px;
   position: relative;
 }
@@ -163,7 +200,10 @@ button {
 .cta:hover,
 .a__button:hover,
 .sub__button:hover,
-.sign__button:hover {
+.sign__button:hover,
+.dark-link:hover,
+.bat__button:hover,
+.buy__button:hover {
   border: 1px solid var(--main-text-color);
   background: var(--main-bg-color);
   transition: 0.5s;
@@ -206,7 +246,6 @@ button {
 /*footer*/
 
 footer {
-  background-color: var(--secondary-bg-color);
   height: 30px;
   position: fixed;
   width: 100%;
@@ -223,7 +262,6 @@ footer div {
 
 .socials {
   font-size: 16px;
-  color: var(--main-text-color);
   width: 10px;
   height: 10px;
 }
@@ -234,7 +272,6 @@ footer div {
 
 footer a {
   font-size: 16px;
-  color: var(--main-text-color);
   margin-top: 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -258,14 +295,12 @@ footer a:hover {
 /*contact page*/
 
 .info {
-  color: var(--main-text-color);
   font-size: 22px;
   margin: 0.5em;
   margin-left: 550px;
   margin-top: 150px;
   float: right;
   padding: 0.5em;
-  font-size: var(--main-text-size);
 }
 
 .tv-left {
@@ -278,8 +313,6 @@ footer a:hover {
 /*about page*/
 
 .about {
-  color: var(--main-text-color);
-  font-size: var(--main-text-size);
   margin-top: 80px;
   margin-left: 35px;
 }
@@ -287,13 +320,10 @@ footer a:hover {
 .a__button {
   margin-top: 1em;
   display: block;
-  background-color: var(--secondary-bg-color);
-  color: var(--main-text-color);
   padding: 5px 34px;
   position: relative;
   width: 20%;
   cursor: pointer;
-  font-size: var(--main-text-size);
   text-decoration: none;
   text-align: center;
   border-radius: 10px;
@@ -305,26 +335,27 @@ footer a:hover {
 
 /*signin page*/
 
-.form__input {
-  color: var(--main-bg-color);
-  font-size: medium;
+.form__input,
+.form__input--medium,
+.form__input--smaller {
   display: block;
+  color: var(--main-bg-color);
+}
+
+.form__input {
+  font-size: medium;
   margin-bottom: 0.1em;
   border-radius: 10px;
   width: 30%;
 }
 
 .form__input--medium {
-  color: var(--main-bg-color);
-  display: block;
   margin-bottom: 0.5em;
   width: 85%;
   border-radius: 10px;
 }
 
 .form__input--smaller {
-  color: var(--main-bg-color);
-  display: block;
   margin-bottom: 0.5em;
   width: 70%;
   border-radius: 10px;
@@ -360,10 +391,6 @@ footer a:hover {
   text-align: center;
 }
 
-.container p {
-  color: var(--main-text-color);
-  font-size: var(--main-text-size);
-}
 
 .container-img {
   width: 100%;
@@ -373,7 +400,6 @@ footer a:hover {
 /* Checkout page */
 
 .form {
-  color: var(--main-text-color);
   margin-top: 130px;
   margin-left: 80px;
 }
@@ -421,19 +447,12 @@ footer a:hover {
 
 
 .dark-link {
-  background-color: var(--secondary-bg-color);
-  color: var(--main-text-color);
   padding: 6px 34px;
   position: relative;
   margin-top: 2em;
   width: 100%;
 }
 
-.dark-link:hover {
-  border: 1px solid var(--main-text-color);
-  background: var(--main-bg-color);
-  transition: 0.5s;
-}
 
 .box-img {
   margin-top: -16.9px;
@@ -444,8 +463,6 @@ footer a:hover {
 /*movieinfo page*/
 
 .movieinfo {
-  color: var(--main-text-color);
-  font-size: var(--main-text-size);
   margin-top: 80px;
   margin-left: 50px;
   padding: 1em;
@@ -465,36 +482,19 @@ footer a:hover {
 }
 
 .bat__button {
-  background-color: var(--secondary-bg-color);
-  color: var(--main-text-color);
   padding: 8px 34px;
-  font-size: var(--main-text-size);
   position: relative;
   width: 35%;
   margin-top: 0.5em;
   margin-left: -0.8px;
 }
 
-.bat__button:hover {
-  border: 1px solid var(--main-text-color);
-  background: var(--main-bg-color);
-  transition: 0.5s;
-}
-
 .buy__button {
-  background-color: var(--secondary-bg-color);
-  color: var(--main-text-color);
   padding: 6px 34px;
   position: relative;
   width: 20%;
   border-radius: 10px;
   margin-top: -0.1em;
-}
-
-.buy__button:hover {
-  border: 1px solid var(--main-text-color);
-  background: var(--main-bg-color);
-  transition: 0.5s;
 }
 
 /* Success Page */
@@ -507,7 +507,6 @@ footer a:hover {
 }
 
 .success {
-  color: var(--main-text-color);
   margin-top: 148px;
   margin-left: 50px;
 }
@@ -595,12 +594,16 @@ h1 {
   }
 
   .cta {
-    font-size: larger;
-    margin: 8%;
     top: 5em;
     left: 10%;
     width: 60%;
 
+  }
+
+  .cta,
+  .buy__button {
+    font-size: larger;
+    margin: 8%;
   }
 
   .a__button {
@@ -608,8 +611,6 @@ h1 {
   }
 
   .buy__button {
-    font-size: larger;
-    margin: 8%;
     top: -1em;
     right: 10%;
     width: 100%;
@@ -633,7 +634,7 @@ h1 {
 
   .info {
     margin: 8%;
-    margin-top: 16em;
+    margin-top: 10em;
     margin-left: auto;
     width: 100%;
   }
