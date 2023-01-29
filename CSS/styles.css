@@ -87,13 +87,23 @@ a {
   text-decoration: none;
 }
 
+.buy__button,
+.bat__button,
+.dark-link,
+.a__button,
+.sub__button,
+.sign__button,
+.cta,
+.banner {
+  position: relative;
+}
+
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.30), rgba(0, 0, 0, 0.30)), url(../products/darkened-background.jpeg);
   width: 100%;
   height: 100vh;
   background-position: center;
   background-size: cover;
-  position: relative;
 }
 
 .header {
@@ -169,7 +179,6 @@ button {
 
 .cta {
   padding: 12px 34px;
-  position: relative;
   margin: 142px 0px -100px 90px;
   width: 20%;
 }
@@ -177,7 +186,6 @@ button {
 .sub__button,
 .sign__button {
   padding: -0.5px;
-  position: relative;
 }
 
 
@@ -321,7 +329,6 @@ footer a:hover {
   margin-top: 1em;
   display: block;
   padding: 5px 34px;
-  position: relative;
   width: 20%;
   cursor: pointer;
   text-decoration: none;
@@ -448,7 +455,6 @@ footer a:hover {
 
 .dark-link {
   padding: 6px 34px;
-  position: relative;
   margin-top: 2em;
   width: 100%;
 }
@@ -483,7 +489,6 @@ footer a:hover {
 
 .bat__button {
   padding: 8px 34px;
-  position: relative;
   width: 35%;
   margin-top: 0.5em;
   margin-left: -0.8px;
@@ -491,7 +496,6 @@ footer a:hover {
 
 .buy__button {
   padding: 6px 34px;
-  position: relative;
   width: 20%;
   border-radius: 10px;
   margin-top: -0.1em;
