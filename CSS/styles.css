@@ -383,8 +383,13 @@ footer a:hover {
 
 }
 
+#test{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+
 .container {
-  margin-top: 13.5%;
   min-width: 100%;
   min-height: 100%;
   margin-left: 2%;
@@ -401,9 +406,8 @@ footer a:hover {
 
 .container-img {
   width: 100%;
-  height: 55%;
+  height: 100%;
 }
-
 /* Checkout page */
 
 .form {
@@ -413,10 +417,12 @@ footer a:hover {
 
 
 .flex {
+  width: 70%;
+  margin: 0 auto;
   font-size: medium;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .logo-c {
@@ -749,4 +755,19 @@ h1 {
 
 .container-child {
   flex-direction: row;
+}
+
+.loader {
+  margin: 0 auto;
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #9e7000;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
