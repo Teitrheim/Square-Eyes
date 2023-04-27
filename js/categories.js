@@ -2,7 +2,7 @@ const BASE_URL = "https://api.noroff.dev/api/v1";
 const ALL_PRODUCTS_URL = `${BASE_URL}/square-eyes`;
 
 async function fetchData() {
-  let isLoading = true;
+  //TODO: change test name here and in DOM
   const element = document.getElementById("test");
 
   element.innerHTML = "";
@@ -11,11 +11,7 @@ async function fetchData() {
     const payload = await fetch(ALL_PRODUCTS_URL);
     const data = await payload.json();
 
-    if (data !== undefined) {
-      isLoading = false;
-    }
-
-    if (isLoading === true) {
+    if (data == undefined) {
       element.innerHTML += `
         <div class="loader"></div>`;
     } else {

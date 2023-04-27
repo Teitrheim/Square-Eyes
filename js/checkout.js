@@ -1,7 +1,5 @@
 async function getCheckout() {
   const checkOut = document.getElementById("checkout");
-
-  let isLoading = true;
   const queryString = document.location.search;
   const params = new URLSearchParams(queryString);
   const id = params.get("id");
@@ -11,13 +9,7 @@ async function getCheckout() {
     const response = await fetch(url);
     const details = await response.json();
 
-    if (details !== undefined) {
-      isLoading = false;
-    }
-
-    console.log(details);
-
-    if (isLoading === true) {
+    if (details == undefined) {
       element.innerHTML += `
             <div class="loader"></div>`;
     } else {
