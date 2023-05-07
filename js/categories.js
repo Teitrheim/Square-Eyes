@@ -2,7 +2,6 @@ const BASE_URL = "https://api.noroff.dev/api/v1";
 const ALL_PRODUCTS_URL = `${BASE_URL}/square-eyes`;
 
 async function fetchData() {
-  //TODO: change test name here and in DOM
   const element = document.getElementById("test");
 
   element.innerHTML = "";
