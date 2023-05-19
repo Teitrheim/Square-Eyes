@@ -248,7 +248,7 @@ button {
   width: 250px;
   position: fixed;
   top: -5%;
-  margin-right: 15%;
+  margin-right: 35%;
 }
 
 /*footer*/
@@ -539,18 +539,18 @@ h1 {
 
 .oops, .link {
   inline-size:max-content;
-  margin-top: 250px;
-  margin-left: 235px;
-  font-size: 30px;
+  margin-top: 140px;
+  margin-left: 135px;
+  font-size: 20px;
 }
 
 .link {
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .oops-links {
-  margin-left: 255px;
-  font-size: 25px;
+  margin-left: 150px;
+  font-size: 15px;
   padding: 5px;
 }
 
@@ -671,6 +671,11 @@ h1 {
   .about {
     margin-top: 54%;
     margin-right: 15%;
+  }
+
+  .oops, .oops-links, .link {
+   padding-top: 15px;
+   padding-right: 20px;
   }
 
   .box {
