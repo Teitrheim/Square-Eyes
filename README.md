@@ -1,70 +1,87 @@
-# Your project title
+# Square Eyes
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](/products/3.square%20eyes%20desktop_4_11zon.png)
 
-A simple overview of the use/purpose of the project.
+In this CA assignment, the task was to create a properly functioning, responsive website for the chosen assignment brief from Design 1. The development process involved learning and implementing HTML, CSS, and responsive design principles.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+I. HTML Development:
 
-You can add some bullet points if you'd like to:
+Started by studying module 1 and completing lesson tasks.
+Implemented HTML, with a particular focus on the homepage/index.
 
-- List item 1
-- List item 2
-- List item 3
+II. CSS Styling:
+
+Initially struggled with CSS but gained proficiency after understanding the role of classes in controlling styling.
+Created a document to track which CSS rules applied to specific HTML elements.
+Learned to use classes effectively, making CSS more manageable.
+
+III. Responsive Design Challenges:
+
+Realized later that designing for mobile-first was advisable (learned in module 3).
+Faced challenges in scaling down the existing desktop design.
+Devoted significant time to understand media queries and ensure responsiveness.
+
+IV. Debugging and Tools:
+
+Faced challenges in the process, involving trial and error, and using dev tools extensively.
+Utilized dev tools for debugging and gaining insights into the structure and style of the pages.
+
+V. Validation and Corrections:
+
+Ran all pages through the "Wave" and "W3" validator tools.
+Encountered errors and spent time correcting them, seeking help from the teacher and classmates.
+Strived to adhere to the DRY (Don't Repeat Yourself) principles, improving the code.
+
+VI. Finalization:
+
+Given the time constraints, focused on refining the mobile view in the last week.
+Strived for clean and organized code, considering the DRY principles.
+
+This assignment provided a valuable learning experience, especially in understanding the basics of HTML and CSS. While facing challenges, the iterative process of trial and error, combined with the use of dev tools, contributed to the overall learning curve.
+
+Conclusion
+
+In conclusion, this CA assignment was a fun and enriching experience that provided insights into web development. The challenges encountered, from understanding responsive design to debugging, contributed to the development of skills and knowledge.
 
 ## Built With
 
-You can list a the tech stack that you've used over here
-
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+JavaScript
+Figma
+HTML and CSS
 
 ## Getting Started
 
-### Installing
+git clone [repository-url]
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
-
-1. Clone the repo:
-
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
-```
-
-2. Install the dependencies:
-
-```
 npm install
-```
 
-### Running
-
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
-
-To run the app, run the following commands:
-
-```bash
 npm run start
-```
 
 ## Contributing
 
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+If you're interested in contributing to the Community Science Museum project, please follow these guidelines:
+
+Fork the repository.
+Create a new branch for your feature or bug fix: git checkout -b feature/new-feature.
+Make your changes and commit them: git commit -m 'Add new feature'.
+Push your changes to the forked repository: git push origin feature/new-feature.
+Open a pull request, and describe the changes you've made.
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+Feel free to reach out to me for any questions or collaboration opportunities. You can find me on:
 
-[My Twitter page](www.twitter.com)
-
-[My LinkedIn page](www.linkedin.com)
-
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+teitrheim@gmail.com
+LinkedIn
 
 ## Acknowledgments
 
-This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+Classmates and teacher
+Images: Pixabay
+Icons: Iconify
+Font: Poppins
+Movie Information: IMDb
+Google, Google Fonts, Font Awesome
+Social Media: Instagram, Facebook, Twitter
